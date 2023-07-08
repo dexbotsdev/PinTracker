@@ -1,0 +1,12 @@
+{
+    "telegram_api_id": 0,
+    "telegram_api_hash": "", 
+    "dataStoragePath":"./app/data", 
+    "botSessionPath":"./app/bot", 
+    "productId":20834,
+    "licenseKey":"",
+    "accessToken":"WyI1MzgwNTgxNiIsImkremVKRjBCejdKV3BWZGFkanBaNFZXMEs0NVVibHIrVmQ4cXNqZDAiXQ==",
+    "RSAPublicKey":"<RSAKeyValue><Modulus>rODSkjL8zAd/5YIW2KQHDdgdGETvqEuIHG5HpYynfYyLTx2O0SWzqveomzTtX+C6IPbzfCnobAFjSpPxpHfa/OzyrhjsmupZg5CEOlUmXbi4C1xabGuM6qTN75rSI0LtI4SeN347KnveOJIQlnW4wsn7M6Ue/7v1nIp4AZNYfrYnqG19JocXjiM65fl88D/HF/GVvQk6MRwtEcwtxddWwMEWX5ZFmbD1+tzPqMywBpdxDEAWPgOWYgCKPGI22Mvruuy90dS5+AvQsrc8ziLryfZ3NwtS7MUsydE6tAS4dtZwCjuIb2X19cxK7cVhzmyp8gLGS7rU9PRpTL9Sutey6w==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>",
+    "channelNames":"freecrypto_pi,freecrypto_pi",
+    "publishToChannel":"ZenVista Finance"
+  }
