@@ -1,0 +1,40 @@
+{
+  "name": "pintracker",
+  "version": "1.0.0",
+  "bin": "src/index.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "bundle": "esbuild src/index.js  --bundle --outfile=build/bundle.js --format=cjs --platform=node",
+    "package": "yarn bundle && pkg  -o pintracker build/bundle.js", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "pkg": {
+    "outputPath": "dist",
+    "targets": [
+      "macos"
+    ],
+    "type": "module",
+    "options": [
+      "experimental-modules"
+    ],
+    "assets": [
+      "src/**/*.js"
+    ],
+    "scripts": "src/**/*.js",
+    "output": "bin"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@mtproto/core": "6.2.0",
+    "@ptkdev/logger": "^1.8.0",
+    "cryptolens": "^1.0.1-4.2",
+    "fs": "^0.0.1-security",
+    "telegram": "^2.15.15"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.11",
+    "pkg": "^5.8.1"
+  }
+}
